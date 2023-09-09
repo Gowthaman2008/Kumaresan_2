@@ -572,7 +572,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('🍿 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 🍿', url='https://t.me/HTD_Tn_links/21')
+            InlineKeyboardButton('💙 Gᴍ Bᴏᴛᴢᴢ™ 💙', url='https://t.me/GM_Botzz')
             ],[
             InlineKeyboardButton('𝙼𝙰𝙽𝚄𝙴𝙻 𝙵𝙸𝙻𝚃𝙴𝚁 🌀', callback_data='manuelfilter'),
             InlineKeyboardButton('𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 🃏', callback_data='autofilter')    
@@ -621,8 +621,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,           
         )
     elif query.data == "source":
-        buttons = [[
+       buttons = [[
             InlineKeyboardButton('🎭 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 🎭', url='https://t.me/Gowthaman2008')
+            ],[
+            InlineKeyboardButton('🍁 Gᴍ Bᴏᴛᴢᴢ™ 🍁', url='https://t.me/GM_Botzz')
             ],[
             InlineKeyboardButton('👩‍🦯 𝙱𝙰𝙲𝙺', callback_data='about'),
             InlineKeyboardButton('⚡ 𝙳𝙾𝙽𝙰𝚃𝙴 ⚡', url='https://paytm.me/A-3pR8p')
